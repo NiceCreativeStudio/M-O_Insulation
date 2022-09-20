@@ -85,14 +85,12 @@
 
 
 
-
-/*--------- mod - Left ---------*/
+/*--------- The man who started it all ---------*/
 
 .modLeft {
     width: 100%;
     height: auto;
 }
-
 .modLeft__box {
     width: 95%;
     margin: 40px 0 40px 5%;
@@ -102,17 +100,14 @@
     justify-content: start;
     column-gap: 20px;
 }
-
 .modLeft__txt {
     width: 100%;
     height: 100%;
     position: relative;
 }
-
 .modLeft__txt h3 {
     margin-top: 25px;
 }
-
 .modLeft__table {
     display: grid;
     grid-template-columns: 230px 100px;
@@ -122,24 +117,19 @@
     position: absolute;
     bottom: 120px;
 }
-
 .modLeft__txt button {
     position: absolute;
     bottom: 0;
 }
-
 .modLeft__imgbox {
     width: 100%;
     height: 500px;
 }
-
 .modLeft__imgbox img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-
 .modLeft__description--container{
     display: flex;
     justify-content: space-between;
@@ -147,22 +137,36 @@
     margin-top: 3%;
     margin-right: 20%;
 }
-
 .modLeft__description--container p{
     width: 40%;
 }
 
 
+/*--------- TARGET SECTOR ---------*/
+
+.target__title{
+    margin: 5% auto 3% 5%;
+}
+.target__container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.target__container span{
+    font-weight: 800;
+}
+.target__container h4{
+    margin: 0.8rem 0;
+}
 
 
 
+/*--------- MEET US ---------*/
 
 .meet__container iframe{
     width: 100%;
     margin-bottom: 2%;
 }
-
-
 .meet__container h3{
     margin: 3% 5%;
 }
@@ -174,7 +178,7 @@
     display: flex;
     align-items: center;
 }
-
 .meet__container div h4{
     margin-right: 10%;
 }
+
