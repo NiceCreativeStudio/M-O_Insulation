@@ -19,7 +19,7 @@ main{
     margin: 0 3%;
 }
 .meet__container div{
-    margin: 3% auto 5% 0;
+    margin: 3% auto 5%;
     display: flex;
     align-items: center;
 }
