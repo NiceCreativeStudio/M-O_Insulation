@@ -889,7 +889,7 @@ nav {
 }
 
 .header__linkContact li {
-  margin-left: 40px;
+  margin: 0 20px;
 }
 
 /*--------- Text Module --------*/
