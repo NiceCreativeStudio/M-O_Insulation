@@ -19,23 +19,23 @@ window.onscroll = function () {
 $(document).ready(function(){
   setTimeout(() => {
     nav.style.transform = "translate(-5rem)"; 
-    $(".navLinks").css('display', 'block')
+    $(".indexLinks").css('display', 'block')
   }, 1175);
   $(window).scroll(function(){
     var scroll = $(window).scrollTop();
     if (scroll > 300) {
       nav.style.background = "#ffffff";
-      $(".navLinks").css('color', '#000000')
-      $(".header__logo").css('display', 'block')
-      $(".header__logo").css('color', 'black')
-      $(".header__contact").css('display', 'block')
+      $(".indexLinks").css('color', '#000000')
+      $(".indexLogo").css('display', 'block')
+      $(".indexLogo").css('color', 'black')
+      $(".indexContact").css('display', 'block')
     }
 
     else{
       nav.style.background = "none";
-      $(".navLinks").css('color', 'white')
-      $(".header__logo").css('display', 'none')
-      $(".header__contact").css('display', 'none')
+      $(".indexLinks").css('color', 'white')
+      $(".indexLogo").css('display', 'none')
+      $(".indexContact").css('display', 'none')
     }
   })
 })

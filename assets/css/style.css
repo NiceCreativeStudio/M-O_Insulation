@@ -2,27 +2,27 @@
 
 @font-face {
   font-family: "Nunito";
-  src: url("../assets/fonts/Nunito-Regular.ttf");
+  src: url("../Fonts/Nunito-Regular.ttf");
 }
 
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/WorkSans-Regular.ttf");
+  src: url("../Fonts/WorkSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Modena Sans";
-  src: url("../assets/fonts/Modena-Sans.otf");
+  src: url("../Fonts/Modena-Sans.otf");
 }
 
 @font-face {
   font-family: "Founders Grotesk";
-  src: url("../assets/fonts/FoundersGrotesk-Regular.otf");
+  src: url("../Fonts/FoundersGrotesk-Regular.otf");
 }
 
 @font-face {
   font-family: "Founders Grotesk Medium";
-  src: url("../assets/fonts/FoundersGrotesk-Medium.otf");
+  src: url("../Fonts/FoundersGrotesk-Medium.otf");
 }
 .titleH1 {
   font-family: "Modena Sans";
@@ -256,10 +256,9 @@ body {
 }
 
 #info .slider-title {
-  font-family: "Modena Sans", sans-serif;
   text-transform: uppercase;
   position: relative;
-  font-size: 5vmax;
+  font-size: 6vmax;
   line-height: 1.3;
   white-space: nowrap;
   font-weight: 700;
@@ -290,6 +289,7 @@ body {
   top: 2rem;
   left: 2rem;
   padding-right: 2rem;
+  padding-top: 5px;
   z-index: 300;
 }
 
@@ -581,22 +581,19 @@ a {
 }
 
 .navLinks:link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .navLinks:visited {
-  color: #ffffff;
+  color: #000000;
 }
 
 .navLinks:active {
-  color: #ffffff;
+  color: #000000;
 }
 
 
 .header__contact{
-  /* Para animación */
-  display: none;
-
   font-family: "Founders Grotesk", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -610,12 +607,33 @@ a {
   z-index: 99;
   right: 5%;
 }
-
-.aLink {
+.indexLogo{
+  /* Para animación */
+  display: none;
+}
+.indexContact{
+  /* Para animación */
+  display: none;
+}
+.indexLinks{
   /* Para animación */
   display: none;
   position: relative;
 
+  color: #ffffff;
+
+  font-family: "Founders Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
+
+.aLink {
+  position: relative;
   white-space: nowrap;
   padding-bottom: 3px;
   text-decoration: none;
@@ -829,6 +847,10 @@ nav {
   align-items: center;
   transition: 0.3s ease all;
   z-index: 20;
+  background-color: #ffffff;
+}
+.indexNav{
+  background: none;
 }
 .header__nav {
   height: 16px;
@@ -849,7 +871,6 @@ nav {
 }
 
 .header__logo {
-  display: none;
   color: #000;
   height: 25px;
   width: 15%;

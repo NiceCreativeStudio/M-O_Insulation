@@ -1,0 +1,552 @@
+/*--------- Hero ---------*/
+
+.hero {
+  width: 100%;
+  height: auto;
+}
+
+.hero__box {
+  height: auto;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.hero__title {
+  width: 100%;
+  margin: 100px 0 60px 0;
+}
+
+.hero__titleTxt {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  justify-items: start;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.hero__titleTxtLg {
+  width: 280px;
+}
+
+.hero__titleTxtSm {
+  float: inline-start;
+}
+
+.hero__titleTxtSm p {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.hero__imgbox {
+  height: auto;
+  width: 100%;
+}
+
+.hero__img {
+  max-height: 470px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero__subtitle {
+  height: 65px;
+  width: 90%;
+  margin: 60px 2.5% 50px 5%;
+  position: relative;
+}
+
+.hero__subtitle h3 {
+  height: auto;
+  width: 250px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.hero__subtitle p {
+  height: auto;
+  width: 330px;
+  right: 320px;
+  bottom: 0;
+  position: absolute;
+}
+
+.hero__subtitle button {
+  right: 0;
+  bottom: 0.5rem;
+  position: absolute;
+  text-align: right;
+}
+
+
+
+
+
+.mod__description{
+  width: 50%;
+  margin-top: 5%
+}
+.mod__description span{
+  font-weight: 800;
+}
+
+
+
+
+
+
+/*--------- mod - Left ---------*/
+
+.modLeft {
+  width: 100%;
+  height: auto;
+}
+
+.modLeft__box {
+  width: 95%;
+  margin: 40px 0 40px 5%;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-items: start;
+  justify-content: start;
+  column-gap: 20px;
+}
+
+.modLeft__txt {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.modLeft__txt h3 {
+  margin-top: 25px;
+}
+
+.modLeft__table {
+  display: grid;
+  grid-template-columns: 230px 100px;
+  grid-template-rows: 30px 30px;
+  justify-items: start;
+  justify-content: start;
+  position: absolute;
+  bottom: 120px;
+}
+
+.modLeft__txt button {
+  position: absolute;
+  bottom: 0;
+}
+
+.modLeft__imgbox {
+  width: 100%;
+  height: 500px;
+}
+
+.modLeft__imgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*--------- mod - Left - Single img ---------*/
+
+.modLeft__boxSgl {
+  width: 95%;
+  margin: 40px 0 40px 5%;
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  justify-items: start;
+  justify-content: start;
+  column-gap: 20px;
+}
+
+.modLeft__imgboxSgl {
+  width: 780px;
+  height: 500px;
+}
+
+.modLeft__imgboxSgl img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*--------- mod - Right ---------*/
+
+.modRight {
+  width: 100%;
+  height: auto;
+}
+
+.modRight__box {
+  width: 100%;
+  margin: 40px 0 40px 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 15%;
+}
+
+.modRight__txt {
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: 0;
+  position: relative;
+}
+
+.modRight__txt h3 {
+  margin-top: 25px;
+}
+
+.modRight__table {
+  display: grid;
+  grid-template-columns: 230px 100px;
+  grid-template-rows: 30px 30px;
+  justify-items: start;
+  justify-content: start;
+  position: absolute;
+  bottom: 120px;
+}
+
+.modRight__txt button {
+  position: absolute;
+  bottom: 0;
+}
+
+.modRight__imgbox {
+  width: 100%;
+  height: 500px;
+}
+
+.modRight__imgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*--------- mod - Video ---------*/
+
+.modVideo {
+  width: 100%;
+  height: auto;
+}
+
+.modVideo__title {
+  width: 95%;
+  margin-left: 5%;
+  height: auto;
+}
+
+.modVideo__title h3 {
+  padding-top: 90px;
+  padding-bottom: 85px;
+}
+
+.modVideo__video {
+  width: 100%;
+  height: 100%;
+}
+
+.modVideo__txt {
+  width: 90%;
+  margin: 3%;
+  height: 150px;
+  position: relative;
+}
+
+.modVideo__txt p {
+  max-width: 350px;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+.modVideo__txtWeb {
+  width: 250px;
+  position: absolute;
+  right: 250px;
+  bottom: 30px;
+}
+
+.modVideo__txtlink {
+  width: 170px;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+.modVideo__keywords{
+  display: flex;
+  justify-content: space-evenly;
+  left: 50%;
+
+}
+.modVideo__keywords div{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.modVideo__keywords div:nth-child(1){
+  left: 40%;
+  transform: translateY(-11rem);
+}
+.modVideo__keywords div:nth-child(2){
+  left: 60%;
+  transform: translateY(-11rem);
+}
+.modVideo__keywords div:nth-child(3){
+  left: 80%;
+  transform: translateY(-11rem);
+}
+
+.modVideo__keywords div h4{
+  margin: 3px 0;
+}
+
+
+/* --------  @ MEDIA --------- */
+
+@media (max-width: 768px) {
+  .hero__title {
+    overflow: hidden;
+  }
+
+  .hero__titleTxt {
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr;
+    align-items: flex-start;
+  }
+
+  .hero__img {
+    max-height: auto;
+  }
+
+  .hero__subtitle {
+    height: 65px;
+    width: 90%;
+    margin: 30px 2.5% 250px 5%;
+    position: relative;
+  }
+
+  .hero__subtitle h3 {
+    width: 250px;
+    left: 0;
+    top: 135px;
+  }
+
+  .hero__subtitle p {
+    width: 300px;
+    left: 0;
+    top: 0px;
+  }
+
+  .hero__subtitle button {
+    width: 240px;
+    left: 0;
+    top: 230px;
+  }
+
+  .modLeft__box {
+    grid-template-columns: 1fr;
+    grid-template-rows: 330px 1fr 1fr;
+    row-gap: 20px;
+  }
+
+  .modLeft__txt button {
+    bottom: 20px;
+  }
+
+  .modLeft__table {
+    bottom: 95px;
+  }
+
+  .modLeft__imgbox {
+    width: 95%;
+    height: auto;
+  }
+
+  .modLeft__boxSgl {
+    grid-template-columns: 1fr;
+    grid-template-rows: 330px 1fr;
+    row-gap: 20px;
+  }
+
+  .modLeft__imgboxSgl {
+    width: 95%;
+    height: auto;
+  }
+
+  .modRight__box {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 330px;
+    row-gap: 20px;
+  }
+
+  .modRight__txt {
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+
+  .modRight__txt button {
+    bottom: 20px;
+  }
+
+  .modRight__table {
+    bottom: 95px;
+  }
+
+  .modRight__imgbox {
+    width: 95%;
+    margin-left: 5%;
+    height: auto;
+  }
+
+  .modVideo__video {
+    width: 100%;
+    height: auto;
+  }
+
+  .modVideo__txt {
+    height: 230px;
+  }
+
+  .modVideo__txt p {
+    max-width: 320px;
+    left: 0;
+    top: 30px;
+  }
+
+  .modVideo__txtWeb {
+    left: 0;
+    bottom: 55px;
+  }
+
+  .modVideo__txtlink {
+    left: 0;
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1180px) {
+  .hero__subtitle {
+    height: 65px;
+    width: 90%;
+    margin: 30px 2.5% 250px 5%;
+    position: relative;
+  }
+
+  .hero__subtitle h3 {
+    width: 250px;
+    left: 0;
+    top: 135px;
+  }
+
+  .hero__subtitle p {
+    width: 300px;
+    left: 0;
+    top: 0px;
+  }
+
+  .hero__subtitle button {
+    width: 250px;
+    left: 0;
+    top: 230px;
+  }
+
+  .img1 {
+    grid-area: img1;
+  }
+
+  .img2 {
+    grid-area: img2;
+  }
+
+  .txt {
+    grid-area: txt;
+  }
+
+  .modLeft__box {
+    width: 90%;
+    margin: 40px 5% 40px 5%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 330px 1fr;
+    grid-template-areas: "txt ." "img1 img2";
+    row-gap: 20px;
+  }
+
+  .modLeft__txt button {
+    bottom: 20px;
+  }
+
+  .modLeft__table {
+    bottom: 95px;
+  }
+
+  .modLeft__imgbox {
+    width: 100%;
+    height: auto;
+  }
+
+  .modLeft__boxSgl {
+    grid-template-columns: 1fr;
+    grid-template-rows: 330px 1fr;
+    row-gap: 20px;
+  }
+
+  .modLeft__imgboxSgl {
+    width: 95%;
+    height: auto;
+  }
+
+  .modRight__box {
+    width: 90%;
+    margin: 40px 5% 40px 5%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 330px;
+    grid-template-areas: "img1 img2" "txt .";
+    row-gap: 20px;
+  }
+
+  .modRight__txt {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .modRight__txt button {
+    bottom: 20px;
+  }
+
+  .modRight__table {
+    bottom: 95px;
+  }
+
+  .modRight__imgbox {
+    width: 100%;
+    height: auto;
+  }
+
+  .modVideo__txt {
+    height: 230px;
+  }
+
+  .modVideo__txt p {
+    max-width: 360px;
+    left: 0;
+    top: 30px;
+  }
+
+  .modVideo__txtWeb {
+    left: 0;
+    bottom: 55px;
+  }
+
+  .modVideo__txtlink {
+    left: 0;
+    bottom: 30px;
+  }
+}
