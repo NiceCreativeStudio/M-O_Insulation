@@ -1,0 +1,124 @@
+/*--------- Hero ---------*/
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+.hero__box {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.hero__title {
+    width: 100%;
+    margin: 100px 0 60px 0;
+}
+
+.hero__titleTxt {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    justify-items: start;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.hero__titleTxtLg {
+    width: 280px;
+}
+
+.hero__titleTxtSm {
+    float: inline-start;
+}
+
+.hero__titleTxtSm p {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.hero__imgbox {
+    height: auto;
+    width: 100%;
+}
+
+.hero__img {
+    max-height: 470px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.hero__subtitle {
+    height: 65px;
+    width: 90%;
+    margin: 60px 2.5% 50px 5%;
+    position: relative;
+}
+
+.hero__subtitle h3 {
+    height: auto;
+    width: 250px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.hero__subtitle p {
+    height: auto;
+    width: 330px;
+    right: 320px;
+    bottom: 0;
+    position: absolute;
+}
+
+.hero__subtitle button {
+    right: 0;
+    bottom: 0.5rem;
+    position: absolute;
+    text-align: right;
+}
+
+
+/* Project shots */
+
+.projectShots__container{
+    display: flex;
+    justify-content: center;
+}
+
+.projectShots__container div{
+    width: 30%;
+    margin: 3% 0.5rem;
+}
+
+/* Project Description */
+
+.projectDesc__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+.projectDesc__container div{
+    width: 40%;
+}
+.projectDesc__container div p{
+    margin: 1.2rem 0;
+}
+.projectDesc__container .titleH3{
+    width: 20%;
+    margin: auto;
+}
+
+.efficientTech__container{
+
+}
+.efficientTech__header{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 3% 5%;
+}

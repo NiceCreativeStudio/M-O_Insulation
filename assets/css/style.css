@@ -1119,6 +1119,9 @@ nav {
   height: 190px;
   position: relative;
 }
+.modVideo__txt a{
+  color: #000000;
+}
 
 .modVideo__txt p {
   max-width: 350px;
